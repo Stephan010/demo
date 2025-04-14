@@ -1,46 +1,48 @@
 {
-  "get":
-  "id": 1,
-  [
-  {
-    
-    "on_site_repair_reference_id": 300301,
-    "external_reference_id": "1",
-    "product_name": "Samsung addwash",
-    "manufacturer_code": "1243",
-    "manufacturer_name": "Samsung",
-    "invoice_date": "2025-01-14T12:26:26.000Z",
-    "invoice_number": "142332",
-    "requested_service": "repair",
-    "complaint_description": "Water dripping from bottom",
-    "complaint_date": "2025-04-13T12:26:26.000Z",
-    "last_repair_update_status": "New",
-    "last_repair_update_date": "2025-04-14T12:26:26.000Z",
-    "created_on": "2025-04-14T12:26:26.000Z",
-    "serial_number": "7466643",
-    "customer": {
-      "full_name": "Piet Slim",
-      "first_name": "Piet",
-      "last_name": "Slim",
-      "email": "Something@cb.nl",
-      "phone_number": "0628282828",
-      "mobile_number": "0628282828"
-    },
-    "address": {
-      "street": "main",
-      "street_no": "1",
-      "street_no_addition": null,
-      "zip_code": "2020ab",
-      "city": "somewhere",
-      "country": "Nederland",
-      "bus_no": null,
-      "company": null,
-      "address_extra": null,
-      "address_addition": null
-    },
-    "status": "InProgress"
-  }
-],
+  "get": [
+    {
+      "id": 1,
+      "body": [
+        {
+          "on_site_repair_reference_id": 300301,
+          "external_reference_id": "1",
+          "product_name": "Samsung addwash",
+          "manufacturer_code": "1243",
+          "manufacturer_name": "Samsung",
+          "invoice_date": "2025-01-14T12:26:26.000Z",
+          "invoice_number": "142332",
+          "requested_service": "repair",
+          "complaint_description": "Water dripping from bottom",
+          "complaint_date": "2025-04-13T12:26:26.000Z",
+          "last_repair_update_status": "New",
+          "last_repair_update_date": "2025-04-14T12:26:26.000Z",
+          "created_on": "2025-04-14T12:26:26.000Z",
+          "serial_number": "7466643",
+          "customer": {
+            "full_name": "Piet Slim",
+            "first_name": "Piet",
+            "last_name": "Slim",
+            "email": "Something@cb.nl",
+            "phone_number": "0628282828",
+            "mobile_number": "0628282828"
+          },
+          "address": {
+            "street": "main",
+            "street_no": "1",
+            "street_no_addition": null,
+            "zip_code": "2020ab",
+            "city": "somewhere",
+            "country": "Nederland",
+            "bus_no": null,
+            "company": null,
+            "address_extra": null,
+            "address_addition": null
+          },
+          "status": "InProgress"
+        }
+      ]
+    }
+  ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
