@@ -2,7 +2,7 @@
   "get": [
     {
       "id": 1,
-      "body": [
+      "title": [
         {
           "on_site_repair_reference_id": 300301,
           "external_reference_id": "1",
